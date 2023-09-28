@@ -17,6 +17,6 @@ spec:
     name: nginx  # Replace 'app' with the label of your target pod
   ports:
     - protocol: TCP
-      port: 443    # Port on the service
+      port: 8080    # Port on the service
       targetPort: 443  # Port on the pod
   type: ClusterIP
